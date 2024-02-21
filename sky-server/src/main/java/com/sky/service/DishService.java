@@ -19,7 +19,7 @@ public interface DishService {
 
     /**
      * 菜品分页查询
-     * @param dishDTO
+     * @param dishPageQueryDTO
      */
     PageResult pageQuery(DishPageQueryDTO dishPageQueryDTO);
 
